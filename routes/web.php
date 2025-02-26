@@ -7,3 +7,5 @@ Route::get('/', [PageController::class, 'homepage']);
 Route::get('/chi-sono', [PageController::class, 'about']);
 
 Route::get('/dettagli/{service}',  [PageController::class, 'service']);
+
+//commento
